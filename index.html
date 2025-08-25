@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .services-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      flex: 1 1 45%; /* Default: two columns */
+      min-width: 300px;
+      box-sizing: border-box;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .card p {
+      color: #555;
+      line-height: 1.5;
+    }
+
+    /* Medium screens (tablet) */
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 80%; /* One wider column */
+      }
+    }
+
+    /* Small screens (mobile) */
+    @media (max-width: 480px) {
+      .card {
+        flex: 1 1 100%; /* Full width stack */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="services-container">
+    <h1>Our Services</h1>
+    <div class="cards">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>We build responsive and high-performing websites tailored to your business needs.</p>
+      </div>
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Boost your website’s visibility on search engines with our proven SEO strategies.</p>
+      </div>
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p>Our designers create eye-catching visuals that align with your brand identity.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Marketing</h3>
+        <p>We plan and execute marketing campaigns that engage your audience and increase conversions.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
