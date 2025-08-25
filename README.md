@@ -31,5 +31,3 @@ To view and edit the project locally:
    git clone https://github.com/HARINISRI2907/Question_10.git
 
 
-## 📁 File Structure
-
